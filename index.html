@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet-Ratings</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pet Ratings</h1>
+    <div id="pets">
+      <div id="pet-0" class="pet">
+        <img src="https://pet-ratings.surge.sh/fluffy.webp" />
+        <h3>Fluffy (Cat 🐈)</h3>
+        <p>So cute! 😻</p>
+      </div>
+      <div>
+        <img src="https://pet-ratings.surge.sh/slitherscale.webp" />
+        <h3>Dr. Slitherscale (Snake 🐍)</h3>
+        <p>Hissssss....</p>
+      </div>
+      <div id="pet-2" class="pet">
+        <img src="https://pet-ratings.surge.sh/spike.webp" />
+        <h3>Spike (Porcupine 🦔)</h3>
+        <p>He loves to be petted!</p>
+      </div>
+    </div>
+
+    <form id="pet-form">
+        <h2>Add Pet</h2>
+        <label>
+          Name:
+          <input name="name">
+        </label>
+        <label>
+          Type:
+          <input name="type">
+        </label>
+        <label>
+          Photo URL:
+          <input type="url" name="photoUrl">
+        </label>
+        <label>
+          Comments:
+          <textarea name="comments"></textarea>
+        </label>
+        <button>Add</button>
+      </form>
+    <script src="./app.js"></script>
+  </body>
+</html>

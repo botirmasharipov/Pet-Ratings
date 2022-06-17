@@ -1,0 +1,44 @@
+body {
+  margin: 50px;
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  color: darkred;
+}
+
+#pets {
+  width: 500px;
+}
+
+.pet {
+  height: 150px;
+}
+.pet img {
+  max-width: 200px;
+  float: left;
+  margin-right: 1em;
+  border: solid 1px black;
+  border-radius: 5px;
+  box-shadow: #ccc 3px 3px 5px;
+}
+
+#pet-form label {
+  display: block;
+  font-size: 90%;
+  color: #666;
+}
+
+#pet-form input,
+#pet-form textarea {
+  margin-top: 2px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+#pet-form {
+  position: absolute;
+  top: 100px;
+  left: 575px;
+}
