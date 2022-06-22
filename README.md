@@ -1,6 +1,6 @@
 # Pet Ratings app
 
-## Technologies
+## Technologies:
 
 - HTML
 - CSS
